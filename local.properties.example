@@ -1,0 +1,17 @@
+# Скопируй в local.properties (Android Studio сама допишет туда sdk.dir).
+# Всё ниже необязательно: те же значения можно ввести в приложении
+# на странице подключения с телефона (Настройки → Аккаунты).
+
+# Приложение Shikimori (https://shikimori.io/oauth/applications).
+# В Redirect URI должна быть строка: urn:ietf:wg:oauth:2.0:oob
+shiki.clientId=
+shiki.clientSecret=
+# Название приложения на Shikimori: уходит в User-Agent каждого запроса.
+shiki.appName=Yoru
+
+# Ключ TMDB (themoviedb.org → Настройки → API): «API Read Access Token» или короткий API Key.
+# Нужен для баннеров и логотипов названий в стиле AniScroll. Можно ввести и с телефона.
+tmdb.token=
+
+# Домен Anime365 по умолчанию
+a365.site=https://smotret-anime.org

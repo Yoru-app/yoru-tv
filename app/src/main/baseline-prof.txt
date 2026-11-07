@@ -1,0 +1,10 @@
+# Профиль базовой компиляции: этот код Android компилирует заранее, а не разбирает интерпретатором при первых показах.
+# Библиотеки (Compose, Media3) приносят свои профили сами; здесь — наш код и то, что нужно ему на каждом экране.
+HSPLapp/yoru/tv/**->**(**)**
+Lapp/yoru/tv/**;
+HSPLcoil/**->**(**)**
+Lcoil/**;
+HSPLkotlinx/serialization/json/**->**(**)**
+Lkotlinx/serialization/json/**;
+HSPLokhttp3/**->**(**)**
+Lokhttp3/**;
